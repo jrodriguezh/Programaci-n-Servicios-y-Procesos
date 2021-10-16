@@ -1,7 +1,7 @@
 package Requerimiento2_LuciaLopez;
 
 public class Emails {
-	// Los emails tendrán un id, un destinatario, un remitente, un asunto y un cuerpo del mensaje.
+	// Los emails tendran un id, un destinatario, un remitente, un asunto y un cuerpo del mensaje.
 	private int id; 
 	private static int id_unico = 1; 
 	private String destinatario; 
@@ -10,7 +10,7 @@ public class Emails {
 	private String cuerpo;
 	// Creamos setters y getters de cada propiedad. 
 	
-	// Para que cada hilo tenga emails con id único, creamos una variable estática que irá aumentando un número cada vez que se genere un nuevo email.
+	// Para que cada hilo tenga emails con id ï¿½nico, creamos una variable estatica que ira aumentando un numero cada vez que se genere un nuevo email.
 	public int getId() {
 		id = id_unico;
 		id_unico++;
@@ -52,7 +52,7 @@ public class Emails {
 	public void setCuerpo(String cuerpo) {
 		this.cuerpo = cuerpo;
 	}
-	// Creamos método toString para devolver los datos de cada email producido.
+	// Creamos metodo toString para devolver los datos de cada email producido.
 	@Override
 	public String toString() {
 		return "Destinatario: " + destinatario + "\n" + "Remitente: " + remitente + "\n" + "Asunto:" + asunto + "\n"

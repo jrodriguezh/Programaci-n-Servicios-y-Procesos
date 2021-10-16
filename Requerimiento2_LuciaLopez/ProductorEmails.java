@@ -22,7 +22,7 @@ public class ProductorEmails extends Thread{
 			
 			Emails email = ge.generarEmails();
 			
-			// Añadimos email al buffer
+			// AÃ±adimos email al buffer
 			buffer.addEmail(email);
 			
 			//Imprimimos por pantalla cada vez que meta un email en el buffer su nombre y el id del email metido
