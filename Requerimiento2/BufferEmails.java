@@ -1,4 +1,4 @@
-package Ejercicio_Threads2;
+package Requerimiento2;
 
 import java.util.LinkedList;
 import java.util.Queue;

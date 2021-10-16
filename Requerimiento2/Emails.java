@@ -1,4 +1,4 @@
-package Ejercicio_Threads2;
+package Requerimiento2;
 
 public class Emails {
 	// Los emails tendrán un id, un destinatario, un remitente, un asunto y un cuerpo del mensaje.

@@ -1,4 +1,4 @@
-package Ejercicio_Threads2;
+package Requerimiento2;
 
 public class MainEmails {
 
