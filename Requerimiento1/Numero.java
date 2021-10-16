@@ -2,7 +2,7 @@ package Requerimiento1;
 
 public class Numero extends Thread {
 
-	private long numero;//5
+	private long numero;
 	private boolean primo=true;
 
 	public Numero(long numero) {
