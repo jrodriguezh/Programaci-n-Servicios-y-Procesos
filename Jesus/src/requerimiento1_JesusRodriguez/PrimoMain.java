@@ -7,12 +7,12 @@ public class PrimoMain {
 	public static void main(String[] args) {
 
 		
-		//Inicializamos Scanner para poder recoger datos por consola
+		//Inicializamos Scanner para poder recoger datos por consola.
 		
 		Scanner sc = new Scanner(System.in);
 
 		
-		//Generamos los cuatro hilos, a los cuales les pasaremos un número por consola
+		//Generamos los cuatro hilos, a los cuales les pasaremos un número por consola.
 		
 		System.out.println("Dame el primer número");
 		HiloPrimo hilo1 = new HiloPrimo((sc.nextLong()));
@@ -27,7 +27,7 @@ public class PrimoMain {
 		HiloPrimo hilo4 = new HiloPrimo((sc.nextLong()));
 
 		
-		//Inicializamos los hilos, que realizarán el procesamiento de los datos, imprimiendo por consola
+		//Inicializamos los hilos, que realizarán el procesamiento de los datos, imprimiendo por consola.
 		//que hilo ha realizado el procesamiento, si el número introducido es primo y el tiempo de ejecucción del proceso.
 		
 		hilo1.start();
@@ -35,7 +35,7 @@ public class PrimoMain {
 		hilo3.start();
 		hilo4.start();
 
-		//cerramos Scanner.
+		//Cerramos Scanner.
 		
 		sc.close();
 
