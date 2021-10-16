@@ -1,4 +1,4 @@
-package Requerimiento1;
+package requerimiento1_JesusRodriguez;
 
 import java.util.Scanner;
 
