@@ -20,7 +20,7 @@ public class TestNumerosPrimos {
 		System.out.println("Introduce el tercer número:");
 		Numero num3 = new Numero(sc.nextLong());
 		
-		System.out.println("Introduce el tercer número:");
+		System.out.println("Introduce el cuarto número:");
 		Numero num4 = new Numero(sc.nextLong());
 		
 		
