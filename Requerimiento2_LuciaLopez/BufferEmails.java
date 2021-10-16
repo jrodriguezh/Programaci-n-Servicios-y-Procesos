@@ -1,4 +1,4 @@
-package Requerimiento2;
+package Requerimiento2_LuciaLopez;
 
 import java.util.LinkedList;
 import java.util.Queue;

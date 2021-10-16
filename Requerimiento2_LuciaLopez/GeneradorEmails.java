@@ -1,4 +1,4 @@
-package Requerimiento2;
+package Requerimiento2_LuciaLopez;
 
 import java.util.ArrayList;
 import java.util.List;
