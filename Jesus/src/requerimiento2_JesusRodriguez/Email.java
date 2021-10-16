@@ -8,7 +8,7 @@ public class Email {
 	private String destinatario;
 	private String remitente;
 	private String asunto;
-	private String cuerpo;
+	private String cuerpoNMaravilsadsa;
 	
 	public String getId() {
 		return id;
